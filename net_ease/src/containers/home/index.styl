@@ -1,0 +1,153 @@
+@import '../../assets/stylus/mixins.styl'
+.container
+  width 100%
+  height 100%
+  .header-top
+    width 100%
+    display flex
+    flex-direction column
+    position fixed
+    top 0
+    z-index 11
+    background-color white
+    .logo-search
+      display flex
+
+      .logo
+        width 1.1rem
+        height .555rem
+        box-sizing border-box
+        padding .15rem .2rem
+        img
+          width 100%
+          height 100%
+      .search
+        display flex
+        align-items center
+        justify-content center
+        flex-grow 1
+        background-color: #ededed
+        font-size .14rem
+        margin .1rem .15rem .1rem 0
+        border-radius 3px
+  .main
+    margin-top: .805rem
+    margin-bottom .5rem
+    background-color #f4f4f4
+    .promise
+      background-color white
+      display flex
+      justify-content space-evenly
+      height .36rem
+      line-height .36rem
+      margin-bottom .1rem
+      .icon-item
+        color: #b4282d
+    .brander
+      background-color white
+      width 100%
+      hight 2.93rem
+      .title
+        width 100%
+        height .55rem
+        text-align center
+        line-height .55rem
+      .brand-list
+        margin 0 .08rem
+        display flex
+        flex-wrap wrap
+        justify-content space-between
+        .brand-item
+          background-color #f4f4f4
+          width 1.775rem
+          height 1.28rem
+          margin-bottom .04rem
+          position relative
+          img
+            width 100%
+            height 100%
+            position absolute
+            top: 0
+            left: 0
+
+          .info
+            text-align left
+            padding .1rem
+            font-size 14px
+            p
+              margin .05rem 0
+            span
+              display inline-block
+              width .32rem
+              height .16rem
+              text-align center
+              line-height .16rem
+              font-size .12rem
+              color #b4a078
+              border 1px solid #b4a078
+              border-radius 2px
+
+    .weal
+      width 100%
+      height 1.5rem
+      background url(http://yanxuan.nosdn.127.net/a3ea2d1108c94c7dece05eddf95f6df5.jpg) no-repeat
+      background-size 100% 100%
+      margin-bottom .1rem
+    .subject
+      width 100%
+      height 2.82rem
+      background-color white
+      margin-bottom .1rem
+      .title
+        width 100%
+        height .55rem
+        text-align center
+        line-height .55rem
+        font-size 16px
+      .subject-list
+        padding 0 .15rem .18rem .15rem
+        overflow hidden
+        ul
+          width 8.925rem
+          li
+            width 2.875rem
+            margin-right .1rem
+            float: left
+            .img
+              margin-bottom .08rem
+              img
+                width 100%
+                height 1.61rem
+            .info
+              text-align left
+              position relative
+              p
+                font-size .12rem
+                color #7f7f7f
+                margin-top .05rem
+              .price
+                position absolute
+                top 0
+                right 0
+                color #b4282d
+    .down-load-app
+      width 100%
+      height 1.25rem
+      background-color #414141
+      color white
+      box-sizing border-box
+      padding .27rem .1rem .14rem
+      span
+        display inline-block
+        width .86rem
+        height .31rem
+        border 1px solid #999
+        border-radius 3px
+        text-align center
+        line-height .31rem
+        margin-bottom: .15rem
+        margin-right .1rem
+      p
+        font-size .12rem
+        color: #999
+        margin-bottom .08rem
